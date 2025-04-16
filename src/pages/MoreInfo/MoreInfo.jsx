@@ -5,7 +5,7 @@ const MoreInfo = () => {
   return (
     <div className='containerGlobal'>
       <div className='containerCardInfo'>
-        <img className='imgProfile' src="public/img/cristian.jpg" alt="Cristian" />
+        <img className='imgProfile' src="/img/cristian.jpg" alt="Cristian" />
         <h4>Cristian Cortes Mondragon</h4>
         <p>Universidad de la Amazonia</p>
         <p>Desarrollador FrontEnd</p>
@@ -20,7 +20,7 @@ const MoreInfo = () => {
       </div>
 
       <div className='containerCardInfo'>
-        <img className='imgProfile' src="public/img/WhatsApp Image 2025-04-15 at 10.48.34 PM.jpeg" alt="Maria Fernanda" />
+        <img className='imgProfile' src="/img/mafe.jpeg" alt="Maria Fernanda" />
         <h4>Maria Fernanda Perdomo</h4>
         <p>Universidad de la Amazonia</p>
         <p>Desarrollador FrontEnd</p>
