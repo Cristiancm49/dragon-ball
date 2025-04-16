@@ -1,0 +1,81 @@
+.ContainerCard {
+    background-color: #272B32;
+    padding-bottom: 20px;
+}
+
+.containerCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 42px;
+    place-items: center;
+
+}
+
+.cardFade {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s ease-out forwards;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+
+.container-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    
+}
+
+.imgHome {
+    width: 100%;
+    object-fit: contain;
+    max-height: 750px;
+}
+
+@media (min-width: 0px) {
+    .imgHome {
+        max-width: 600px;
+    }
+    .container-home {
+        padding: 16px;
+    }
+}
+@media (min-width: 740px) {
+    .imgHome {
+        max-width: 780px;
+    }
+    .container-home {
+        padding: 64px 16px 64px 16px;
+    }
+}
+
+
+.titleHome {
+    font-weight: bold;
+    color: #f1c40f;
+    font-family: tahoma;
+    line-height: 1.167;
+    letter-spacing: -0.01562em;
+    font-weight: 900;
+}
+
+@media (min-width: 0px) {
+    .titleHome  {
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 600px) {
+    .titleHome  {
+        font-size: 40px;
+    }
+}

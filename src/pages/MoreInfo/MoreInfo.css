@@ -1,0 +1,75 @@
+
+.containerGlobal {
+    display: flex;
+    flex-wrap: wrap;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  }
+  
+
+  .containerCardInfo {
+    background: #ffffff;
+    border: 1px solid #d0d7de;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(140, 149, 159, 0.15);
+    padding: 1.5rem;
+    width: 100%;
+    height: 350px;
+    max-width: 320px; 
+    min-width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  .containerCardInfo:hover {
+    transform: translateY(-5px);
+  }
+  
+ 
+  .imgProfile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+
+  h4 {
+    margin: 0.5rem 0;
+    color: #24292f;
+    font-size: 1.1rem;
+  }
+  
+  p {
+    margin: 0.2rem 0;
+    color: #57606a;
+    font-size: 0.95rem;
+  }
+  
+ 
+  .containerLogos {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  
+  .imgRedes {
+    width: 24px;
+    height: 24px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease, transform 0.3s ease;
+  }
+  
+  .imgRedes:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+  }
+  
