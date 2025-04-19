@@ -42,7 +42,6 @@ Entrega 2
 
 ## 📸 Capturas de pantalla 
 
-> 
+> [HOME](./public/Captura%20de%20pantalla%202025-04-18%20a%20la(s)%207.02.01 p.m..png)
 
 ¡Gracias por visitar este proyecto! 🐉✨
-[HOME](./public/Captura%20de%20pantalla%202025-04-18%20a%20la(s)%207.02.01 p.m..png)
