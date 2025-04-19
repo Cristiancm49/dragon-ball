@@ -40,10 +40,9 @@ Materia: **Programación Web**
 Año: **2025**  
 Entrega 2
 
-## 📸 Capturas de pantalla (opcional)
+## 📸 Capturas de pantalla 
 
-> Puedes agregar aquí imágenes del home, detalle del personaje o la página 404.
-
----
+> 
 
 ¡Gracias por visitar este proyecto! 🐉✨
+[HOME](./public/Captura%20de%20pantalla%202025-04-18%20a%20la(s)%207.02.01 p.m..png)
