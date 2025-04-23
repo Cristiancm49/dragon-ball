@@ -1,4 +1,5 @@
 import React from 'react'
+import './CardCharacterDetail.css'
 
 const CardCharacterDetail = ({
     image,

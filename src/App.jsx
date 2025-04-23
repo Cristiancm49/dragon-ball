@@ -6,6 +6,7 @@ import Home from './pages/Home/Home'
 import CharacterDetail from './pages/CharacterDetail/CharacterDetail'
 import MoreInfo from './pages/MoreInfo/MoreInfo'
 import NotFound from './pages/NotFound/NotFound'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
         <Route path='*' element={<NotFound />} />
         <Route path='/404' element={<NotFound />} />
       </Routes>
-
+      <Footer />
     </Router>
 
   )
